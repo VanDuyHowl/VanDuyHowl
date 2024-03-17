@@ -41,6 +41,9 @@
                         <input class="header__search--text" type="text" name="Timkiemtxt" placeholder="Nhập sách bạn cần tìm?">
                         <button class="header__logo_search-button">Tìm</button>
                     </div>
+                    <div class="header__shopping">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
                 </div>
             </div>
             
@@ -79,10 +82,10 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
                                 <div class="SP_item-info">
                                     <div class="SP_item-info__book" >
-                                        <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="One Piece" referrerpolicy="origin">
+                                        <img class="SP_item-info-img " src="https://m.media-amazon.com/images/I/81FuGhBLSWL._AC_UL480_FMwebp_QL65_.jpg" alt="Immune" referrerpolicy="origin">
                                     </div>
                                     <div class="SP_item-info-name">    
-                                        <a class="SP_item-info-tagName" href="Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                        <a class="SP_item-info-tagName" href="Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">Miễn dịch</h5></a>
                                     </div>
                                     <div class="SP_item-info-money">
                                         <span class="SP_item-info-money-old">230.000₫</span>
