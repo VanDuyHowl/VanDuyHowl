@@ -6,7 +6,7 @@ div{
     display:block;
 }
 .header {
-    height: 120px;
+    height: auto;
     background-image: linear-gradient(0,#cad3e7,#1b63cf);
 
 }
@@ -54,6 +54,7 @@ div{
 .header__logo_search{
     display:flex;
     align-items: center;
+    justify-content:space-evenly;
 }
 
 .header__logo{
@@ -143,10 +144,12 @@ div{
 }
 
 .SP_item-info__book{
-    margin:10px 0;
+    
 }
 
-.SP_item-info-img{
+.SP_item-info-img{ 
+    
+    height:230.75px;
     width:100%;
 }
 
@@ -217,8 +220,10 @@ div{
 .trangchu-chitiet{
     display:flex;
     margin-left: -30px;
+    
 }
 .trangchu-chitiet2{
+    margin-bottom:5px;
     border-radius:5px;
     background-color: white;
 }
@@ -273,19 +278,32 @@ div{
     color:white;
     background-color:#1877f2 ;
     border-radius: 5px;
-    margin:0 5px;
+    margin:5px;
 }
 .share{
     color:white;
     background-color:#1877f2 ;
     border-radius: 5px;
-    margin:0 5px;
+    margin:5px;
 }
 .like-share{
     
 }
+.info-buy{
+    list-style: none;
+    margin-left: -30px;
+    font-size:15px;
+    
+}
+.info_list-color{
+    font-size: 20px;
+    color:red;
+}
+.info-buy-km{
+    font-weight: 500;
+}
 .buy{
-    text-align: center;
+    
 }
 .button_buy{
     text-align: center;
@@ -307,6 +325,7 @@ div{
 }
 
 .noidung{
+    margin-top:px;
     border-radius:5px;
     background-color: white;
 }
