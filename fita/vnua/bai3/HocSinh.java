@@ -32,6 +32,7 @@ public class HocSinh extends Nguoi
 		khoaHoc=sc.nextLine();
 		System.out.println("Nhap ky hoc: ");
 		kyHoc=sc.nextInt();
+		System.out.println("-----------");
 	}
 	
 	public void inThongTin(){
@@ -40,6 +41,7 @@ public class HocSinh extends Nguoi
 		System.out.println("Lop: "+ lop);
 		System.out.println("Khoa hoc: "+ khoaHoc);
 		System.out.println("Ky hoc: "+ kyHoc);
+		System.out.println("-----------");
 	}
 	
 	public String getLop(){
