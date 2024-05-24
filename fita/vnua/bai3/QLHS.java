@@ -54,7 +54,7 @@ public class QLHS {
 	public void timKiemHocSinh(String lop){
 		System.out.println("Danh sach hoc sinh co lop "+ lop +":");
 		for (HocSinh hs : dshs) {
-			if((lop.equals(hs.getLop())))
+			if(lop.equals(hs.getLop()))
 				
 				hs.inThongTin();
 		}	
